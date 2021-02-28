@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbari">
+        <div class="cont">
+             <a class="main-logo" href="#">Dato<span>Studies</span></a>
+
+            <img id="phone" class="phone-menu" src="images/menu.svg" alt="navigacia"> 
+
+
+            <nav>
+                
+                <img id= "phone-exit" class="exit" src="images/exit.svg" alt="navigaciaexit">
+                
+                <ul class="primary-nav">
+
+                    <li class="maingv"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Projects</a></li>
+                
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="maingv"><a href="#">Contact Us</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <section class="hero">
+        <div class="containertwo">
+            <div class="marcxena">
+                <p class="satauri">Martivad &amp; Xarisxianad</p>
+                <h1>TO-DO list App That Helps You Manage Your Day</h1>
+                <div class="hero-con">
+                <a href="#" class="primary-con">Cade Ufasod</a>
+                <a href="https://www.youtube.com/watch?v=YYNpCDaL6LI&ab_channel=KjaxGaming" class="secondary-con"> <br> <img src="images/watch.svg" alt="Uyure Videos">Naxe Video </a>
+                </div>
+            </div>
+            <img src="images/illustration.svg" class="hero-img" alt="ilustracia">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="conteineri">
+            <ul class="sia">
+                <li>Xarisxi Dabal Fasad</li>
+                <li>SMS Shetyobineba </li>
+                <li>Dagegme Dge</li>
+                <li>Ufaso Trial Versia</li>
+                <li>Da Sxva Mravali Funqciebi</li>
+            </ul>
+            <img src="/images/holding-phone.jpg" alt="Kacs uchiravs telefoni">
+        </div>
+    </section>
+    <section class="test-section">
+        <ul>
+            <li>
+                <img src="images/person.jpg" alt="person">
+
+                <blockquote>Kmayofili Momxmareblis shefaseba</blockquote>
+                <cite> - Saxeli Gvari</cite>
+            </li>
+            <li><img src="images/person.jpg" alt="person">
+
+                <blockquote>Kmayofili Momxmareblis shefaseba</blockquote>
+                <cite>- Saxeli Gvari</cite></li>
+            <li><img src="images/person.jpg" alt="person">
+
+                <blockquote>Kmayofili Momxmareblis shefaseba</blockquote>
+                <cite>- Saxeli Gvari</cite></li>
+        </ul>
+    </section>
+    <section class="contact-section">
+        <div class="conteineri">
+            <div class="contacti-marcxniv">
+                <h2>Dagvikavshirdi</h2>
+
+                <form action="">
+                    <label for="name">Saxeli</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="message">Sheiyvanet teqsti</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" class="send-message-cta" value="Gaagzavne">
+                </form>
+            </div>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d381112.142039947!2d44.558672615153164!3d41.73263141840675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1614436029766!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+<script> // idzaxebs menu's add event listeneri, remove xuravs.
+    const mobileBtn = document.getElementById('phone')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('phone-exit');
+
+    mobileBtn.addEventListener('click', () => {
+          nav.classList.add('phone-menu');
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('phone-menu')
+    })
+</script>
+
+  <div class="footer">
+      <div class="content-in-footer"></div>
+      <div class="copyright">
+       <p> All Rights Reserved &copy; Datostudies || Built By D.D || </p> 
+      </div>
+  </div>
+</body>
+</html>
